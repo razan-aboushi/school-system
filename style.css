@@ -722,9 +722,8 @@ border: 1px solid black;
  border-radius: 5px;
  margin-top: 20px;
  margin-bottom: 20px;
- margin-left: 200px;
  padding: 20px;
- width: 300px;
+ width: 350px;
  background-color: rgb(31, 30, 30);
  color: white;
  font-size: 25px;
@@ -736,11 +735,7 @@ border: 1px solid black;
  0 2.1px 2.1px rgba(128, 128, 128, 0.195),
  0 4.4px 4.4px rgba(128, 128, 128, 0.241),
  0 12px 12px rgba(128, 128, 128, 0.35);
-
 }
-
-
-
 
 
 
@@ -754,6 +749,7 @@ border: 1px solid black;
     color:rgb(114, 108, 108);
     font-size: 25px;
     font-weight: bold;
+    margin-left: 800px;
     text-align: center;
     text-shadow: #3b5998;
     margin-bottom: 200px;
@@ -767,11 +763,12 @@ border: 1px solid black;
     box-shadow: #dd4b39;
 }
 
-.tbl th {
+#table1
+ th {
     background-color: rgb(176, 219, 234);
 }
 
-.tbl caption 
+#table1 caption 
 {
     text-align: center;
     margin-bottom: 5px;
@@ -779,3 +776,9 @@ border: 1px solid black;
 }
 
 
+#table1
+{
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
