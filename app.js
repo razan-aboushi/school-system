@@ -59,8 +59,5 @@ cell5.textContent=grade;
 
 
 
-
-
-
 }
 
