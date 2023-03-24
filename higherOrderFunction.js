@@ -10,6 +10,8 @@
      return sum/arr1.length;
  }
 
+ console.log(getAvgerage([1,2,3,4,5,6,7,8,9,10]));
+
 
 // Q5 :Write a function that, takes an array of integers as input, iterates over the array, and returns a new array. 
 //The returned array should contain the result of raising 2 to the power of the original input element.For example,([1,2,3]) returns [2,4,8] because 2 ^ 1 = 2, 2 ^ 2 = 4, and 2 ^ 3 = 8.
@@ -23,6 +25,7 @@
      {
          RaArray.push(Math.pow(2, arr2[R]));
      }
+     return RaArray;
  }
 
 // By Using ForEach()
@@ -45,6 +48,8 @@ function getPower(arr2)
      });
      return newArray;
  }
+
+ console.log(getPower([1,2,3,4,5,6,7,8]));
 
 
 // Q6 : Write a function that takes an array of numbers as input, uses map to return a new array where each element is either the string "even" or the string "odd", based on each value.If any element in the array is not a number, the resulting array should have the string "N/A" in its place.
@@ -69,6 +74,7 @@ function getPower(arr2)
      });
     return newArr;
  }
+ console.log(Render([1,2,3,4,5,6,"Razan"]));
 
 
 // Q7 : Write a function named fizzbuzz that takes in an array of numbers.
@@ -102,3 +108,5 @@ function getPower(arr2)
      });
      return newArr;
  }
+
+ console.log(fizzbuzz([1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]));
