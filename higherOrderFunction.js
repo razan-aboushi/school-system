@@ -19,7 +19,7 @@
  function getPower(arr2)
  {
     let RaArray = [];
-     for(let R = 0; R < arr.length; R++)
+     for(let R = 0; R < arr2.length; R++)
      {
          RaArray.push(Math.pow(2, arr2[R]));
      }
