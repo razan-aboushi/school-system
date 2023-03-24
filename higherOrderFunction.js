@@ -47,7 +47,7 @@ function getPower(arr2)
  }
 
 
-// Q6 : Write a function that, takes an array of numbers as input, uses map to return a new array where each element is either the string "even" or the string "odd", based on each value.If any element in the array is not a number, the resulting array should have the string "N/A" in its place.
+// Q6 : Write a function that takes an array of numbers as input, uses map to return a new array where each element is either the string "even" or the string "odd", based on each value.If any element in the array is not a number, the resulting array should have the string "N/A" in its place.
 
 
  function Render(arr)
@@ -82,14 +82,18 @@ function getPower(arr2)
 
  function fizzbuzz(arr)
  {
-     let newArr = arr.map((value) => {
-        if(value%3==0 && value%5==0){
+     let newArr = arr.map((value) =>
+      {
+        if(value%3==0 && value%5==0)
+        {
              return "fizzbuzz";
        }
-        else if(value%3==0){
+        else if(value%3==0)
+        {
             return "fizz";
        }
-         else if(value%5==0){
+         else if(value%5==0)
+         {
              return "buzz";
          }
          else{
