@@ -739,7 +739,7 @@ border: 1px solid black;
 
 
 
-
+/* 
 .tbl {
     border-collapse: separate;
     text-indent: initial;
@@ -782,3 +782,61 @@ border: 1px solid black;
     font-weight: bold;
     text-align: center;
 }
+ */
+
+
+
+
+
+/* Styles for the student cards */
+
+#student_card
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-auto-rows: minmax(100px,auto);
+    grid-gap: 10px;
+    justify-items: center;
+    align-items: center;
+}
+#student_card div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgba(47, 47, 120, 0.745);
+  padding: 0.5rem;
+  border: 1px solid #050505;
+  border-radius: 0.5rem;
+  width:220px;
+  height:350px;
+  text-align: center;
+}
+  
+  #student_card img {
+    width: 50px;
+    height: 150px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  #student_card {
+    padding: 10px;
+  }
+
+  #student_card ul{
+    list-style-type: none;
+
+  }
+  
+  #student_card ul li{
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  #student_card div img{
+    width: 150px;
+    height: 150px;
+  }
